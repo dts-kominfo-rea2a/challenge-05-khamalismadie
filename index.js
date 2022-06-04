@@ -10,7 +10,7 @@ const sorter = (list, callback) => {
   let hasil = callback([...list]);
 
   for (let i = 0; i < hasil.length; i++) {
-    hasil[i] = i + 1 + "- " + hasil[i];
+    hasil[i] = i + 1 + ". " + hasil[i];
   }
   return hasil;
 };
